@@ -193,13 +193,8 @@ header .container .toggle i {
   }
 }
 
-main {
-  display: -ms-grid;
-  display: grid;
-  row-gap: 120px;
-}
-
 main .slide {
+  margin-bottom: 120px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
           box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
   position: relative;
@@ -300,6 +295,10 @@ main .slide:hover .prev, main .slide:hover .next {
   visibility: visible;
 }
 
+main .about {
+  margin-bottom: 120px;
+}
+
 main .about .container {
   display: -ms-grid;
   display: grid;
@@ -382,6 +381,10 @@ main .about .container .about__right a:after {
 
 main .about .container .about__right a:hover:after {
   width: 100%;
+}
+
+main .projects {
+  margin-bottom: 120px;
 }
 
 main .projects .container {
@@ -522,6 +525,10 @@ main .projects .container .projects__list .projects__list__one:hover a img {
           transform: scale(1.1);
 }
 
+main .users {
+  margin-bottom: 120px;
+}
+
 main .users .container {
   text-align: center;
 }
@@ -599,6 +606,10 @@ main .users .container .users__list .users__list__one .user header .content p {
   font-weight: 500;
   color: #999999;
   font-family: "Montserrat", sans-serif;
+}
+
+main .services {
+  margin-bottom: 120px;
 }
 
 main .services header {
@@ -701,6 +712,10 @@ main .services header .right:hover i {
           transform: translate(-50%, -50%) scale(1.5);
 }
 
+main .services .details {
+  margin-bottom: 120px;
+}
+
 main .services .details h1 {
   text-align: center;
   margin-bottom: 120px;
@@ -769,6 +784,7 @@ main .services .details .boxes .box ul li {
 }
 
 main .list_logo {
+  margin-bottom: 120px;
   background: url(../images/bg_logo.png);
 }
 
