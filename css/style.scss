@@ -120,7 +120,7 @@ header{
                     a{
                         text-decoration: none;
                         color:$black;
-                        font-size:14px;
+                        font-size:18px;
                         font-family: $font;
                         font-weight: $wSemiBold;
                         text-transform: uppercase;
@@ -178,7 +178,6 @@ main{
     row-gap: 120px;
     // slide
     .slide{
-        margin-top:10px;
         box-shadow: rgba(0,0,0,0.5) 2px 2px 5px 2px;
         position: relative;
         ._1slide{

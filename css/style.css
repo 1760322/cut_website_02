@@ -117,7 +117,7 @@ header .container .main-nav ul li {
 header .container .main-nav ul li a {
   text-decoration: none;
   color: #111111;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -200,7 +200,6 @@ main {
 }
 
 main .slide {
-  margin-top: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
           box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
   position: relative;
@@ -965,14 +964,13 @@ footer .container .right .menu_right li {
   font-family: "Montserrat", sans-serif;
 }
 
-@media all and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   main {
     display: -ms-grid;
     display: grid;
     row-gap: 120px;
   }
   main .slide {
-    margin-top: 10px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
             box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
     position: relative;
@@ -1644,15 +1642,15 @@ footer .container .right .menu_right li {
   }
 }
 
-@media all and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
   header {
     margin: 0 5px;
   }
   header .container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto 180px;
-        grid-template-columns: auto auto 180px;
+    -ms-grid-columns: 180px auto 180px;
+        grid-template-columns: 180px auto 180px;
     -ms-grid-rows: 80px auto;
         grid-template-rows: 80px auto;
   }
@@ -1681,6 +1679,10 @@ footer .container .right .menu_right li {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
+    margin-right: 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
@@ -1692,30 +1694,22 @@ footer .container .right .menu_right li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   header .container .main-nav ul li {
     text-align: center;
-    padding-left: 20px;
+    padding: 0px;
+    padding-left: 30px;
   }
   header .container .main-nav ul li a {
     text-decoration: none;
     color: #111111;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
   }
   header .container .main-nav ul li:hover a {
     color: #2fbcd5;
-  }
-  header .container .main-nav ul:last-child {
-    margin-right: 20px;
   }
   header .container .phone {
     display: -ms-grid;
@@ -1743,12 +1737,12 @@ footer .container .right .menu_right li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-grid-column: 3;
+    -ms-grid-column: 1;
     -ms-grid-column-span: 1;
-    grid-column: 3/4;
-    -ms-grid-row: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    grid-row: 1/2;
+    grid-row: 2/3;
   }
   header .container .toggle i {
     color: #111111;
@@ -1759,7 +1753,6 @@ footer .container .right .menu_right li {
     row-gap: 120px;
   }
   main .slide {
-    margin-top: 10px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
             box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 2px;
     position: relative;

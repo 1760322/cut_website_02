@@ -1,10 +1,10 @@
-@media all and (min-width: 600px){
+@media only screen and(min-width: 768px){
     main{
         display:grid;
         row-gap: 120px;
         // slide
         .slide{
-            margin-top:10px;
+            
             box-shadow: rgba(0,0,0,0.5) 2px 2px 5px 2px;
             position: relative;
             ._1slide{
@@ -145,7 +145,7 @@
                 }
                 .projects__list{
                     display:grid;
-                    grid-template-columns: 1fr;
+                    grid-template-columns: 1fr ;
                     justify-items: center;
                     gap:30px;
                     .projects__list__one{
